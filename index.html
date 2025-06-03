@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    Alexander Malm | A Web Developer based in Hässleholm, Sweden.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- keywords -->
+  <meta name="keywords" content="Alexander Malm, CSS, HTML, Python" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <a href="#work" class="nav__link">Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Alexander Malm</span>
+        </h1>
+        <p>A Web Developer based in Hässleholm, Sweden.<br>Driven by a passion for learning</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+
+    <!-- ***** Font of Choice ***** -->
+    <section class="special__choices" id="special__choices">
+      <div class="row">
+        <h2>Unique choices</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Font of Choice</h3>
+              <p>
+                You'll notice that the font of coice is Cadman. This deliberate choice may deviate from conventional standards and aesthetics, but for good reason. 
+                Cadman was specifically developed to enhance reading accessibility and fluidity for individuals with dyslexia. <br><br>
+                For more information on its design and purpose, please click the link below.
+              </p>
+              <div class="work__links">
+                <a href="https://www.fontsquirrel.com/fonts/cadman" title="View Source Code" target="_blank">
+                  <img src="./images/fontsquirrel.png" class="work__code" alt="FontSquirrel">
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** My Work ***** -->
+
+    
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>FlaggBot</h3>
+              <p>
+                This project is a powerful visual automation tool. 
+                It leverages mss for efficient screen capturing and pyautogui for precise mouse and keyboard control. 
+                Image comparisons are highly optimized using cv2 with COLOR_RGB2BGR conversion, ensuring maximum efficiency. 
+                Managed through a neat, dark-themed Tkinter GUI, the entire application utilizes multiprocessing for robust and responsive performance across complex automation tasks.
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>Tinkter</li>
+                <li>Multiprocessing</li>
+                <li>Image Recognition Automation</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/FlaggShot" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Simple Survey</h3>
+              <p>
+                This simple, dark-themed web survey application gathers user learning preferences. 
+                It features essential form elements like text inputs, a dropdown, 
+                and interactive radio buttons/checkboxes. 
+                Prioritizing clarity and ease of use for respondents, 
+                this project reinforced my understanding of HTML form structure, 
+                and fundamental data collection principles in web development.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/FlaggShot/freecodecamp/tree/main/5.%20Survey%20Form%20(Cerificate%20project)">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Placeholder</h3>
+              <p>
+                No real project here yet
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Hi! I'm a Web Developer with a genuine love for all things programming, especially Python.
+              When I'm not coding, I'm likely challenging myself with chess puzzles, 
+              creating mods for games I enjoy, 
+              or out in nature walking my dogs.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/selfie.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Got a web project in mind, or just curious about web development? 
+          Whether you're looking for a fast, user-friendly website for your business, 
+          have a quick question, or even just want to share some advice or say hello, 
+          I'd genuinely love to hear from you. 
+          The best way to reach me via email, and I'll do my best to respond as soon as possible.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:malmalex4@gmail.com" class="btn">malmalex4@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/flaggshot/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/alexander-malm-191391268/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
